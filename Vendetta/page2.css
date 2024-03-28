@@ -1,0 +1,178 @@
+body {
+    
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    
+
+}
+
+/*barre de navigation*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+
+
+/*Les personnages*/
+
+
+#linear {
+    background-image: linear-gradient(326deg, #802201 0%, #210d10 74%);
+    color: white;
+}
+.text {
+    color: #ff0000;
+    
+    background-color: black;  
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;  /*inspiré du site text shadow CSS Generator Online */
+}
+
+#autre {
+    color: red;
+    background-color: black;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15); /*inspiré du site text shadow CSS Generator Online */
+}
+.positionement {
+    display: flex;
+    justify-content: center;
+}
+.col-lg-7 h1 {
+    font-size: 50px;
+    
+}
+.col-lg-7 p {
+    font-size: 25px;
+    
+}
+
+.card p {
+    color: white;
+    background-image: linear-gradient(326deg, #802201 0%, #210d10 74%);
+    
+    
+}
+
+.container-actors {
+    max-width: 1100px;
+    margin: 50px auto auto auto;
+    padding: 0 2rem;
+    
+}
+ img {
+    width: 100%;
+}
+.card {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    background-color: black;
+    margin-bottom: 2rem;
+    
+
+
+}
+
+.card img {
+    height: 400px;
+}
+.card > div {
+    padding: 2rem;
+}
+@media (max-width: 700px) {
+    .card {
+        display: block;
+    }
+}
+
+
+/*Questions(test)*/
+.container-questions {
+    
+    margin: 100px auto;
+    background: grey;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+
+
+}
+.container-questions .test {
+    background: red;
+    border-radius: 7px 7px 0px 0px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    
+}
+.questions {
+   padding: 0px  20px  20px;
+}
+
+details {
+    
+    background: grey;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+   
+
+}
+details summary {
+    
+    outline: none;
+
+}
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+footer {
+    background-color: grey;
+    text-align: center;
+}

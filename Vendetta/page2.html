@@ -1,0 +1,169 @@
+<!Doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  
+  <link rel="stylesheet" href="page2.css" >
+  <link rel="stylesheet" href="new.css">
+  
+  <script>
+    var x=document.getElementsByName('personalité');
+    var i;
+    reponse= "Vous correspondez le plus à "
+    
+    function resultat() {
+      if (x[0].checked == true) {
+        alert(reponse+ "Evey");
+        
+      }
+      
+      if (x[1].checked == true) {
+        alert(reponse+ "V");
+      }
+      
+      
+      if (x[2].checked == true) {
+        alert(reponse+ "Gordon");
+      }
+      
+      
+    }
+  </script>
+  <title>Projet 2</title>
+  
+</head>
+<body>
+  
+  <div id="mySidenav" class="sidenav"> <!--W3School-Right Sided Navbar-->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="page1.html">Home</a>
+    <a href="page2.html">Personnages</a>
+    <a href="page3.html">Influence</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  
+  
+  
+  
+  <section class="py-5" data-aos="fade-left">  
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-5" >
+          <img src="https://fsb.zobj.net/crop.php?r=1gC12XKoz9bTXgo8awi91ifwzFDKp6ocQZBrH4Zh8TtAoLR14-4WScW-4zfjrF5NDS702bSBlh4OEuHjsQyW4L8rnFjmYicI-DWULM_aSDYVrR2oBqYWqhJT_28TGqZUL2nuVunfhQj7elOcDfelCW9iiZ_-hLRcVAkOypKc6lBNtTuOuZb3akzvYs0" alt="">
+        </div>
+        <div class="col-lg-7">
+          <h1 > <i><span class="text">Vendetta</span></i></h1>
+          <p class="py-3"> <i>
+            
+            En 1997, au moment où le Gouvernement au Royaume-Uni croît avoir tous les pouvoirs en main, une personne commence une campagne pour ébranler tous les symboles du pouvoir. Cette personne qui se fait appeler « V » porte un masque représentant le visage de Guy Fawkes, le plus célèbre membre de la conspiration des poudres. Lors de sa première action d'éclat, le dynamitage du Palais de Westminster, V sauve Evey, une jeune fille de 16 ans qui risquait d'être violée puis exécutée pour prostitution.
+          </i>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="positionement" data-aos="fade-right" >
+  <div id="autre" >
+    <h1 >Autres personnages</h1>
+  </div>
+  
+  
+</section>
+<main class="container-actors" >
+  <section class="card" data-aos="fade-right">
+    <img src="https://pbs.twimg.com/media/DGpUSmVXcAA7vkK.jpg" alt="">
+    <div>
+      <h3 class="text">Evey</h3>
+      <p><i>Evey rencontre « V », le justicier mystérieux avec qui elle sera liée à jamais, lorsque celui-ci la sauve des miliciens s'apprêtant à la violer. Au contact de la jeune femme vulnérable et constamment terrifiée par les menaces du gouvernement, « V » entreprend, par amour pour elle, de chasser sa peur des représailles de manière brutale. Grâce à « V », Evey reprend confiance en elle et perçoit le monde qui l'entoure sous un angle différent.</i> </p>
+    </div>
+  </section>
+  <section class="card" data-aos="fade-left">
+    <div>
+      <h3 class="text">Gordon</h3>
+      <p><i>Gordon est l'homme qui recueille Evey chez lui après que V l'a abandonnée. Ils construisent ensemble une relation amoureuse, mais elle est éphémère : Gordon semble être impliqué dans de sombres histoires. Il fréquente le cabaret du Kitty Kat Keller où l'on voit des bandits qu'il connaît, tel Harper. Un jour, ce dernier arrive chez Gordon et le tue. Evey, anéantie, reste un moment auprès de son cadavre, puis décide de le venger, ce qui l'amène une fois de plus à rencontrer V.</i></p>
+    </div>
+    <img src="https://www.univers-l.com/wpuniversl/wp-content/uploads/2006/04/v_pour_vendetta4.jpg" alt="">
+  </section>
+  
+  
+</main>
+<section class="positionement " data-aos="zoom-in-down">
+  <div class="container-questions">
+    <p class="test">Répondez à ces questions pour savoir à quel personnage vous correspondez le plus</p>
+    <div class="questions">
+      <details>
+        <summary>Comment définiriez-vous votre personalité?</summary><br>
+        <form id="form-1" action="https://www.w3schools.com/action_page.php" method="POST">
+          
+          
+          <input type="radio" name="personalité" id="res" >Plutôt réservé(e)<br><br>
+          <input type="radio" name="personalité" id="myst" > Mystérieux(se)<br><br>
+          <input type="radio" name="personalité" id="intr" > Intriguant(e)
+          
+          
+          
+        </form>
+      </details>
+      <details>
+        <summary>Choisissez une phrase qui vous correspond le plus: </summary><br>
+        <form id="form-2" action="https://www.w3schools.com/action_page.php" method="POST">
+          <input type="radio" name="justice" id="inj">Je ne tolère pas l'injustice <br><br>
+          <input type="radio" name="justice" id="ver"> La vérité, toujours la vérité et rien que la vérité!<br><br>
+          <input type="radio" name="justice" id="fon"> Même lorsque j'ai peur, je n'hésite pas à foncer.
+          
+          
+        </form>
+      </details>
+      <div class="btn-group" role="group" aria-label="Basic example"> <!--code de Bootsrap-->
+        <button type="button" class="btn btn-secondary" onclick="resultat()">OK</button>
+        
+      </div>
+      
+      
+    </div>
+  </div>
+</section>
+
+  <footer>&copy; Copyright 2020 </footer>
+
+
+
+
+
+
+
+
+<!--Bootsrap Javascript-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!--Javascript AOS library-->
+<script>
+  AOS.init();
+</script>
+
+<!--W3School-->
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+</script>
+
+
+
+
+
+
+</body>
+</html>
